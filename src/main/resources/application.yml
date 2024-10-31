@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: CRM-BackIntern-Task
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: password
+    url: jdbc:mysql://localhost:3306/crm
+  jpa:
+    properties:
+      hibernate:
+        format_sql: false
+        show_sql: true
+    hibernate:
+      ddl-auto: update
+secretKey: VG8gZW5jb2RlIGJpbmFyaWVzIChsaWtlIGltYWdlcywgZG9jdW1lbnRzLCBldGMuKSB1c2UgdGhlIGZpbGUgdXBsb2FkIGZvcm0gYSBsaXR0bGUgZnVydGhlciBkb3duIG9uIHRoaXMgcGFnZQ==
+server:
+  port: 8081
